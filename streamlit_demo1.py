@@ -5,7 +5,7 @@ def send2back(data_json):
     return requests.post("http://xxx:xx/ss",json=data_json).json()
 
 
-st.title("自然语言处理")
+st.title("自然语言处理2")
 st.markdown("---")
 option = st.selectbox("请选择你想要的功能:",('', '中文分词', '英文分词', '中文命名实体识别', '中文依存句法分析'))
 content = st.text_input("请输入待分析的内容")
